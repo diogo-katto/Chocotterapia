@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Chocotterapia")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+41307a71485d96d993841079ff47346402745d6a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cd43ad79fb332c935f0e277b7191b06bc165c966")]
 [assembly: System.Reflection.AssemblyProductAttribute("Chocotterapia")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Chocotterapia")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
