@@ -14,5 +14,6 @@ namespace Chocotterapia.Models
         public string? Nome { get; set; } // pode ser nulo
         public decimal? Preco { get; set; } // pode ser nulo
         public string? Descricao { get; set; } // pode ser nulo
+        public string? ImagemUrl { get; set; }
     }
 }

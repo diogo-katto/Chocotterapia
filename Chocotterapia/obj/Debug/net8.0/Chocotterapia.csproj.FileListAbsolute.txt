@@ -43,3 +43,4 @@ C:\Users\diogo\Documents\ChocotterapiaPi\Chocotterapia\obj\Debug\net8.0\Chocotte
 C:\Users\diogo\Documents\ChocotterapiaPi\Chocotterapia\obj\Debug\net8.0\Chocotterapia.genruntimeconfig.cache
 C:\Users\diogo\Documents\ChocotterapiaPi\Chocotterapia\obj\Debug\net8.0\ref\Chocotterapia.dll
 C:\Users\diogo\Documents\ChocotterapiaPi\Chocotterapia\obj\Debug\net8.0\Chocotterapia.sourcelink.json
+c:\Users\diogo\Documents\ChocotterapiaPi\Chocotterapia\bin\Debug\net8.0\Chocotterapia.staticwebassets.runtime.json

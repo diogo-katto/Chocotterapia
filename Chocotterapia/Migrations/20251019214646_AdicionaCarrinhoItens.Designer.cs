@@ -3,6 +3,7 @@ using System;
 using Chocotterapia.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Chocotterapia.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20251019214646_AdicionaCarrinhoItens")]
+    partial class AdicionaCarrinhoItens
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -45,9 +48,6 @@ namespace Chocotterapia.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("Descricao")
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("ImagemUrl")
                         .HasColumnType("longtext");
 
                     b.Property<string>("Nome")

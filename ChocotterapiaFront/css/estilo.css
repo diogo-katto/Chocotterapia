@@ -1,0 +1,76 @@
+/* ...existing code... */
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* cor marrom principal */
+.text-brown {
+  color: #8B4513;
+}
+
+/* botões com outline marrom — em fundo escuro devemos garantir contraste */
+.btn-outline-brown {
+  border-color: #8B4513;
+  color: #8B4513;
+}
+
+.btn-outline-brown:hover {
+  background-color: #8B4513;
+  color: white;
+}
+
+/* navbar / fundo */
+.bg-brown {
+  background-color: #8B4513;
+}
+
+/* imagems dos cards */
+.card img {
+  border-radius: 10px;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* garantir que botões de navegação em cima do fundo marrom fiquem legíveis */
+.navbar .btn-outline-light {
+  color: #ffffff;
+  border-color: rgba(255,255,255,0.2);
+}
+.navbar .btn-outline-light:hover {
+  background-color: rgba(255,255,255,0.08);
+}
+
+/* overrides pequenos para responsividade */
+@media (max-width: 576px) {
+  .card img { height: 150px; }
+}
+/* ...existing code... */
+
+/* Controle de imagens nos cards */
+.card-img-wrapper {
+    position: relative;
+    padding-top: 66.67%; /* Proporção 3:2 */
+    overflow: hidden;
+    background-color: #f8f9fa;
+}
+
+.card-img-wrapper img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.card:hover .card-img-wrapper img {
+    transform: scale(1.05);
+}
+
+/* Ajustes responsivos */
+@media (max-width: 768px) {
+    .card-img-wrapper {
+        padding-top: 75%; /* Mais quadrado em telas menores */
+    }
+}

@@ -27,6 +27,7 @@ namespace Chocotterapia.Controllers
             await _appDbContext.SaveChangesAsync();
 
             return Ok(produtos);
+            
         }
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Produtos>>> GetProdutos()

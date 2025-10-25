@@ -11,6 +11,7 @@ namespace Chocotterapia.Data
         }
 
         public DbSet<Produtos> Produtos { get; set; }
+        public DbSet<CarrinhoItem> CarrinhoItens { get; set; }
        
     }
 }
